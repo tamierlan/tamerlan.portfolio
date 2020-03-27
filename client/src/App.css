@@ -313,13 +313,14 @@ form p {
     padding-right: 10%;
     text-align: center;
     margin-bottom: 0px;
+    background: black;
   }
   .details h1 {
     padding-left: 0rem;
   }
   .details .toggle {
-    background: black;
-    padding-bottom: 20px;;
+    /* background: black; */
+    /* padding-bottom: 20px; */
   }
   .details .toggle .skill {
     text-align: center;
