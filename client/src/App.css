@@ -1,0 +1,353 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+:root {
+  --black: #260C1A;
+  --orange: #ff6633;
+  --white: #F7F7F2;
+  --green: #77d42a;
+  --blue: #3399ff;
+}
+
+body {
+  background: url("./images/dark.jpg") center/cover no-repeat;
+  height: 100vh;
+  overflow-y: hidden;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.title {
+  letter-spacing: 5px;
+  font-family: 'Fredoka One', cursive;
+}
+
+.scroll {
+  height: 100vh;
+  display: block;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.details {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20%;
+  text-align: right;
+  position: fixed;
+  color: var(--blue);
+  padding: 20px;
+}
+.details h1 {
+  color: var(--blue);
+  padding-left: 7rem;
+}
+.details h3 {
+  padding-top: 10px;
+  color: var(--green);
+}
+/************* toggle icons ***************/
+.icons .close {
+  transition: all 0.1s linear;
+  margin: 5px;
+  color: var(--green);
+  font-size: 25px;
+}
+.icons .open {
+  transition: all 0.1s linear;
+  margin: 5px;
+  color: var(--orange);
+  font-size: 25px;
+}
+
+
+/************ DETAIL DISPLAY **************/
+.toggle .close {
+  display: none;
+}
+.toggle .open {
+  display: block;
+}
+
+/**************** skill *******************/
+.skill {
+  text-align: left;
+}
+.skill .icon-text {
+  display: flex;
+  margin-bottom: 5px;
+}
+.skill .icon {
+  color: var(--orange);
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+/**************** github ******************/
+.githubpic img {
+  width: 290px;
+}
+
+/***************** phone ******************/
+form button a {
+  text-decoration: none;
+  color: white;
+}
+
+/***************** Email ******************/
+form input, form textarea {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  width:100%;
+  font-size: 15px;
+  padding-left: 5px;
+  padding-top: 10px;
+  border: none;
+  border-bottom: 1px solid var(--orange);
+}
+
+.full textarea {
+  height: 100px;
+  resize: none;
+  overflow: none;
+}
+
+form input:focus, form textarea {
+  outline: 0;
+}
+
+form button {
+	box-shadow:inset 0px 1px 0px 0px #ffece6;
+	background:linear-gradient(to bottom, #ff794d 5%, #ff531a 100%);
+	background-color: #ff6633;
+	border-radius:5px;
+	border: 2px solid #ff4000;
+	display:inline-block;
+	cursor:pointer;
+  margin-top: 15px;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:4px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+  outline: 0;
+}
+
+form button:hover {
+	background:linear-gradient(to bottom, #ff531a 5%, #ff6633 100%);
+	background-color:#c62d1f;
+}
+form button:active {
+	position:relative;
+	top:1px;
+}
+form p {
+  border: 1px rgba(255, 255, 255, 0.1);
+}
+.redname, .redemail, .redmessage {
+  border: 1px solid red;
+}
+.none {
+  display: none;
+}
+
+
+
+
+
+/******************** CENTER ******************************/
+.projects {
+  margin-left: 50%;
+  margin-right: 15%;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+.projects .hoveronweb {
+  width: 70%;
+}
+.project a {
+  text-decoration: none;
+}
+.projects .project {
+  background: rgba(255, 255, 255, 0.1);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 3px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.projects .hoveronweb:hover .project img {
+  transform: scale(1.2);
+}
+.projects img {
+  transition: all 0.4s linear;
+  display: block;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.project h3 {
+  color: var(--blue);
+  margin-top: 25px;
+}
+.project h4 {
+  padding-top: 15px;
+  color: var(--green);
+}
+.project p {
+  color: black;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 20px;
+  color: white;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
+
+.project button {
+	box-shadow:inset 0px 1px 0px 0px #f1fde8;
+	background:linear-gradient(to bottom, #9ef05c 5%, #52a30f 100%);
+	background-color:#77d42a;
+	border-radius:5px;
+	border: 2px solid #268a16;
+	display:inline-block;
+	cursor:pointer;
+	color:#306108;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:4px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #aade7c;
+  outline: 0;
+}
+.project button:hover {
+	background:linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+	background-color:#5cb811;
+}
+.project button:active {
+	position:relative;
+	top:1px;
+}
+.project a {
+  text-decoration: none;
+}
+@media screen and (max-width: 1150px) {
+  .details {
+    margin-left: 17%;
+  }
+  .projects {
+    margin-right: 10%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .projects {
+    margin-left: 55%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .details {
+    margin-left: 15%;
+  }
+  .projects {
+    margin-right: 5%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .details {
+    margin-left: 12%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .details {
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .details {
+    margin-left: 5%;
+  }
+  .projects {
+    margin-left: 60%;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 620px) {
+  .details {
+    margin-left: 3%;
+  }
+  .projects {
+    margin-left: 65%;
+  }
+  .projects .hoveronweb {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .details {
+    margin-left: 0%;
+    padding-left: 10px;
+  }
+  .projects {
+    margin-left: 62%;
+  }
+  .projects .hoveronweb {
+    width: 90%;
+  }
+}
+
+/******************* phone screen *********************/
+@media screen and (max-width: 620px) {
+  .details {
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-right: 0%;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .details h1 {
+    padding-left: 0rem;
+  }
+  .details .toggle {
+    background: black;
+    padding-bottom: 20px;;
+  }
+  .details .toggle .skill {
+    text-align: center;
+  }
+  .projects {
+    margin-left: 10%;
+    margin-top: 45%;
+    margin-right: 10%;
+  }
+  .projects .hoveronweb {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .projects {
+    margin-left: 10%;
+    margin-top: 47%;
+    margin-right: 10%;
+  }
+}
+@media screen and (max-width: 376px) {
+  .projects {
+    margin-top: 52%;
+  }
+}
+@media screen and (max-width: 321px) {
+  .projects {
+    margin-top: 60%;
+  }
+}
