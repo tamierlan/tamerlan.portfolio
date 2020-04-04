@@ -71,7 +71,8 @@ body {
 
 /**************** skill *******************/
 .skill {
-  text-align: left;
+  text-align: center;
+  padding: 5px;
 }
 .skill .icon-text {
   display: flex;
