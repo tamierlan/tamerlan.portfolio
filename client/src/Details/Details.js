@@ -24,8 +24,8 @@ export default Details => {
             return (
               <>
                 <div className='icons'>
-                  <IoMdSchool className={value.state.skill} onMouseEnter={value.skillToggle} />
                   <FaGithub className={value.state.github} onMouseEnter={value.githubToggle} />
+                  <IoMdSchool className={value.state.skill} onMouseEnter={value.skillToggle} />
                   <FaPhoneSquare className={value.state.phone} onMouseEnter={value.phoneToggle} />
                   <IoIosMailOpen className={value.state.formemail} onMouseEnter={value.formemailToggle} />
                 </div>
