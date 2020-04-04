@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Details from './Details/Details';
 import Projects from './Projects/Projects';
-import ScrollToBottom from 'react-scroll-to-bottom';
+import ScrollToBottom from './scroll';
 import { PortfolioConsumer } from './context';
 
 export default App => {
