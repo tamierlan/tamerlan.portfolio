@@ -67,11 +67,12 @@ body {
 }
 .toggle .open {
   display: block;
+  text-align: right;
 }
 
 /**************** skill *******************/
 .skill {
-  text-align: center;
+  text-align: right;
   padding: 5px;
 }
 .skill .icon-text {
@@ -180,8 +181,10 @@ form p {
   width: 100%;
   margin-bottom: 50px;
 }
-.projects .hoveronweb:hover .project img {
-  transform: scale(1.2);
+@media screen and (min-width: 620px) {
+  .projects .hoveronweb:hover .project img {
+    transform: scale(1.2);
+  }
 }
 .projects img {
   transition: all 0.4s linear;
