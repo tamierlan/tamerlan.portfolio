@@ -312,15 +312,26 @@ form p {
     margin-left: 0%;
     margin-top: 0%;
     margin-right: 0%;
+    margin-bottom: 0px;
     width: 100%;
+    padding: 5px;
     padding-left: 10%;
     padding-right: 10%;
     text-align: center;
-    margin-bottom: 0px;
     background: black;
   }
-  .details h1 {
-    padding-left: 0rem;
+  .details .tommy-eduard {
+    display: flex;
+    /* text-align: center; */
+      justify-content: center;
+  }
+  .details .tommy-eduard h1 {
+    font-size: 1.2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .details h3 {
+    padding-top: 5px;
   }
   .details .toggle {
     /* background: black; */
@@ -331,7 +342,7 @@ form p {
   }
   .projects {
     margin-left: 10%;
-    margin-top: 45%;
+    margin-top: 25%;
     margin-right: 10%;
   }
   .projects .hoveronweb {
@@ -342,7 +353,7 @@ form p {
 @media screen and (max-width: 415px) {
   .projects {
     margin-left: 10%;
-    margin-top: 47%;
+    margin-top: 25%;
     margin-right: 10%;
   }
 }
