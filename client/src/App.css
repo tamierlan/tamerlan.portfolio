@@ -279,29 +279,6 @@ form p {
     margin-right: 0;
   }
 }
-@media screen and (max-width: 620px) {
-  .details {
-    margin-left: 3%;
-  }
-  .projects {
-    margin-left: 65%;
-  }
-  .projects .hoveronweb {
-    width: 80%;
-  }
-}
-@media screen and (max-width: 550px) {
-  .details {
-    margin-left: 0%;
-    padding-left: 10px;
-  }
-  .projects {
-    margin-left: 62%;
-  }
-  .projects .hoveronweb {
-    width: 90%;
-  }
-}
 
 /******************* phone screen *********************/
 @media screen and (max-width: 620px) {
@@ -337,10 +314,10 @@ form p {
   }
   .toggle .open {
     text-align: center;
-  }  
+  }
   .skill .icon-text {
     margin-bottom: 5px;
-  } */
+  }
   .projects {
     margin-left: 10%;
     margin-top: 25%;
@@ -350,13 +327,18 @@ form p {
     width: 100%;
   }
 }
+@media screen and (max-width: 550px) {
+  .details {
+    padding-left: 10px;
+  }
+}
 
 @media screen and (max-width: 415px) {
-  .projects {
+  /* .projects {
     margin-left: 10%;
     margin-top: 25%;
     margin-right: 10%;
-  }
+  } */
 }
 @media screen and (max-width: 376px) {
   .projects {
