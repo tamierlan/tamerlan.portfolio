@@ -4,14 +4,12 @@ import { FaCss3Alt } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
 import { FaReact } from 'react-icons/fa';
 import { FaNodeJs } from 'react-icons/fa';
-import { PortfolioConsumer } from '../context';
+// import { PortfolioConsumer } from '../context';
 
 export default Skill => {
   return (
-    <PortfolioConsumer>
-      {(value) => {
-        return (
-          <div className='skill' onMouseOver={value.lockemail} onMouseOut={value.unlockemail}>
+          <div className='skill'>    
+            <button><a href="tel:+17187824455">Call<br/>757 275 5420</a></button>
             <div className='icon-text'>
               <TiHtml5 className='icon' />
               <h2>html</h2>
@@ -33,8 +31,6 @@ export default Skill => {
               <h2>node js</h2>
             </div>
           </div>
-        )
-      }}
-    </PortfolioConsumer>
+
   )
 }
