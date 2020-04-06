@@ -30,8 +30,8 @@ export default Details => {
                   <IoIosMailOpen className={value.state.formemail} onMouseEnter={value.formemailToggle} />
                 </div>
                 <div className='toggle'>
-                  <div className={value.state.skill}> <Github /> </div>
-                  <div className={value.state.github}> <Skill /> </div>
+                  <div className={value.state.skill}> <Skill /> </div>
+                  <div className={value.state.github}> <Github /> </div>
                   <div className={value.state.phone}> <Phone /> </div>
                   <div className={value.state.formemail}> <Email /> </div>
                 </div>
