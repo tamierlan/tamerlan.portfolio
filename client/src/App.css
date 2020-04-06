@@ -50,12 +50,14 @@ body {
 .icons .close {
   transition: all 0.1s linear;
   margin: 10px;
+  margin-top: 5px;
   color: var(--green);
   font-size: 25px;
 }
 .icons .open {
   transition: all 0.1s linear;
   margin: 10px;
+  margin-top: 5px;
 
   color: var(--orange);
   font-size: 25px;
@@ -292,7 +294,7 @@ form p {
     margin-right: 0%;
     margin-bottom: 0px;
     width: 100%;
-    padding: 5px;
+    padding: 0px;
     padding-left: 10%;
     padding-right: 10%;
     text-align: center;
@@ -306,10 +308,11 @@ form p {
   .details .tommy-eduard h1 {
     font-size: 1.2rem;
     padding-left: 10px;
+    padding-top: 10px;
     padding-right: 10px;
   }
   .details h3 {
-    padding-top: 4px;
+    padding-top: 10px;
     font-size: 0.8rem;
   }
   .details .toggle {
