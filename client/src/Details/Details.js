@@ -34,11 +34,6 @@ export default Details => {
                   <div className={value.state.github}> <Github /> </div>
                   <div className={value.state.phone}> <Phone /> </div>
                   <div className={value.state.formemail}> <Email /> </div>
-
-                  <div className={value.state.skill}> <Skill /> </div>
-                  <div className={value.state.github}> <Github /> </div>
-                  <div className={value.state.phone}> <Phone /> </div>
-                  <div className={value.state.formemail}> <Email /> </div>
                 </div>
               </>
             )
