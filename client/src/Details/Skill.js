@@ -8,8 +8,8 @@ import { FaNodeJs } from 'react-icons/fa';
 
 export default Skill => {
   return (
-          <div className='skill'>    
-            <button><a href="tel:+17187824455">Call<br/>757 275 5420</a></button>
+          <div className='skill'>
+            <button />
             <div className='icon-text'>
               <TiHtml5 className='icon' />
               <h2>html</h2>
