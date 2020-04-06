@@ -70,13 +70,13 @@ body {
 }
 
 /**************** skill *******************/
-/* .skill {
-  padding: 5px;
+.skill {
+
 }
 .skill .icon-text {
   margin-bottom: 5px;
   display: flex;
-} */
+}
 .skill .icon {
   color: var(--orange);
   font-size: 20px;
@@ -325,9 +325,9 @@ form p {
   }
 }
 @media screen and (max-width: 550px) {
-  .details {
+  /* .details {
     padding-left: 10px;
-  }
+  } */
 }
 
 @media screen and (max-width: 415px) {
