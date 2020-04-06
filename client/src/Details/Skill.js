@@ -9,7 +9,8 @@ export default Skill => {
   return (
     <div className='skill'>
       <div className='icon-text'>
-        <TiHtml5 className='icon' /><h2>html</h2>
+        <TiHtml5 className='icon' />
+        <h2>html</h2>
       </div>
       <div className='icon-text'>
         <FaCss3Alt className='icon' />

@@ -315,9 +315,6 @@ form p {
   .toggle .open {
     text-align: center;
   }
-  .skill .icon-text {
-    margin-bottom: 5px;
-  }
   .projects {
     margin-left: 10%;
     margin-top: 25%;
@@ -334,11 +331,7 @@ form p {
 }
 
 @media screen and (max-width: 415px) {
-  /* .projects {
-    margin-left: 10%;
-    margin-top: 25%;
-    margin-right: 10%;
-  } */
+
 }
 @media screen and (max-width: 376px) {
   .projects {
