@@ -147,7 +147,7 @@ form button:active {
 	top:1px;
 }
 form p {
-  border: 1px rgba(255, 255, 255, 0.1);
+  /* border: 1px rgba(255, 255, 255, 0.1); */
 }
 .redname, .redemail, .redmessage {
   border: 1px solid red;
@@ -180,7 +180,7 @@ form p {
   border-radius: 3px;
   text-align: center;
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 @media screen and (min-width: 620px) {
   .projects .hoveronweb:hover .project img {
@@ -320,9 +320,9 @@ form p {
     text-align: center;
   }
   .projects {
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 25%;
-    margin-right: 10%;
+    margin-right: 5%;
   }
   .projects .hoveronweb {
     width: 100%;
@@ -339,11 +339,11 @@ form p {
 }
 @media screen and (max-width: 376px) {
   .projects {
-    margin-top: 52%;
+
   }
 }
 @media screen and (max-width: 321px) {
   .projects {
-    margin-top: 60%;
+
   }
 }
