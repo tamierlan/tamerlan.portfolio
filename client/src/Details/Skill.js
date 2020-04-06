@@ -7,7 +7,7 @@ import { FaNodeJs } from 'react-icons/fa';
 
 export default Skill => {
   return (
-    <div className='skill'>
+    <div>
       Skill
     </div>
   )

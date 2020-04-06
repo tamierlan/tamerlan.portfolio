@@ -67,7 +67,6 @@ body {
 }
 .toggle .open {
   display: block;
-  text-align: right;
 }
 
 /**************** skill *******************/
