@@ -72,7 +72,7 @@ body {
 
 /**************** skill *******************/
 .skill button {
-  display: none; 
+  border-color: black;
 }
 .skill .icon-text {
   margin-bottom: 5px;
