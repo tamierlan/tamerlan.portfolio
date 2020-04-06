@@ -71,6 +71,9 @@ body {
 }
 
 /**************** skill *******************/
+.skill button {
+  /* display: none;  */
+}
 .skill .icon-text {
   margin-bottom: 5px;
   display: flex;
