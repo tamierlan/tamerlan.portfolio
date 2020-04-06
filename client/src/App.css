@@ -70,17 +70,16 @@ body {
 }
 
 /**************** skill *******************/
-.skill {
+/* .skill {
   padding: 5px;
 }
 .skill .icon-text {
   margin-bottom: 5px;
   display: flex;
-}
+} */
 .skill .icon {
   color: var(--orange);
   font-size: 20px;
-  margin-right: 10px;
 }
 
 /**************** github ******************/
@@ -338,10 +337,10 @@ form p {
   }
   .toggle .open {
     text-align: center;
-  }
+  /* }
   .skill .icon-text {
-  margin-bottom: 5px;
-}
+    margin-bottom: 5px;
+  } */
   .projects {
     margin-left: 10%;
     margin-top: 25%;

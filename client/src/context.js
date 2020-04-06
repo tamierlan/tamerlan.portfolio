@@ -8,9 +8,9 @@ class PortfolioProvider extends Component {
     super()
 
     this.state = {
-      skill: 'close',
       github: 'close',
       phone: 'close',
+      skill: 'close',
       formemail: 'close',
       emailname: '',
       email: '',
@@ -24,9 +24,9 @@ class PortfolioProvider extends Component {
   }
 
 //////////// toggle icons  //////////////
-  skillToggle = () => {this.setState({ formemail: 'close', github: 'close', phone: 'close', skill: 'open' })}
   githubToggle = () => {this.setState({ skill: 'close', formemail: 'close', phone: 'close', github: 'open' })}
-  phoneToggle = () => {this.setState({ skill: 'close', github: 'close', formemail: 'close', phone: 'open'})}
+  phoneToggle = () => {this.setState({ skill: 'close', github: 'close', formemail: 'close', phone: 'open' })}
+  skillToggle = () => {this.setState({ formemail: 'close', github: 'close', phone: 'close', skill: 'open' })}
   formemailToggle = () => {this.setState({ skill: 'close', github: 'close', phone: 'close', formemail: 'open', emailname: '', email: '', emailmessage: ''})}
 
   lockemail = () => {this.setState({ check: true })}
@@ -38,7 +38,7 @@ class PortfolioProvider extends Component {
     if (this.state.check === true) {
       this.setState({ check: true })
     } else {
-      this.setState({skill: 'close', github: 'close', phone: 'close', formemail: 'close', inputname: '', inputemail: '', inputmessage: '' })
+      this.setState({ skill: 'close', github: 'close', phone: 'close', formemail: 'close', inputname: '', inputemail: '', inputmessage: '' })
     }
   }
 
