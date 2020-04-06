@@ -1,5 +1,4 @@
 import React from 'react';
-// import tommy from '../images/tommy.jpg';
 
 export default Tamerlan => {
   return (
