@@ -6,7 +6,7 @@ import React from 'react';
 // import { FaNodeJs } from 'react-icons/fa';
 
 export default function Skill() {
-  return {
+  return (
     <h1>Pure Skill</h1>
-  }
+  )
 }
