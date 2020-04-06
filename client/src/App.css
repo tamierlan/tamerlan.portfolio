@@ -49,13 +49,14 @@ body {
 /************* toggle icons ***************/
 .icons .close {
   transition: all 0.1s linear;
-  margin: 5px;
+  margin: 10px;
   color: var(--green);
   font-size: 25px;
 }
 .icons .open {
   transition: all 0.1s linear;
-  margin: 5px;
+  margin: 10px;
+
   color: var(--orange);
   font-size: 25px;
 }
@@ -70,9 +71,6 @@ body {
 }
 
 /**************** skill *******************/
-.skill {
-
-}
 .skill .icon-text {
   margin-bottom: 5px;
   display: flex;
@@ -80,6 +78,9 @@ body {
 .skill .icon {
   color: var(--orange);
   font-size: 20px;
+}
+.skill h2 {
+  margin-left: 5px;
 }
 
 /**************** github ******************/
@@ -305,8 +306,8 @@ form p {
     padding-right: 10px;
   }
   .details h3 {
-    padding-top: 5px;
-    font-size: 1rem;
+    padding-top: 4px;
+    font-size: 0.8rem;
   }
   .details .toggle {
     /* background: black; */
