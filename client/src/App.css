@@ -72,12 +72,11 @@ body {
 
 /**************** skill *******************/
 .skill {
-  text-align: right;
   padding: 5px;
 }
 .skill .icon-text {
-  display: flex;
   margin-bottom: 5px;
+  display: flex;
 }
 .skill .icon {
   color: var(--orange);
@@ -332,14 +331,18 @@ form p {
   }
   .details h3 {
     padding-top: 5px;
+    font-size: 1rem;
   }
   .details .toggle {
     /* background: black; */
     /* padding-bottom: 20px; */
   }
-  .details .toggle .skill {
+  .toggle .open {
     text-align: center;
   }
+  .skill .icon-text {
+  margin-bottom: 5px;
+}
   .projects {
     margin-left: 10%;
     margin-top: 25%;
