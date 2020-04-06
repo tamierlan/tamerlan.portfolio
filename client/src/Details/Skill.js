@@ -5,10 +5,8 @@ import React from 'react';
 // import { FaReact } from 'react-icons/fa';
 // import { FaNodeJs } from 'react-icons/fa';
 
-export default Skill => {
-  return (
-    <div>
-      <h1>this is skill</h1>
-    </div>
-  )
+export default function Skill() {
+  return {
+    <h1>Pure Skill</h1>
+  }
 }
