@@ -42,7 +42,7 @@ body {
   color: var(--blue);
   padding-left: 7rem;
 }
-.details h3 {
+.details p {
   padding-top: 10px;
   color: var(--green);
 }
@@ -58,7 +58,6 @@ body {
   transition: all 0.1s linear;
   margin: 10px;
   margin-top: 5px;
-
   color: var(--orange);
   font-size: 25px;
 }
@@ -70,21 +69,30 @@ body {
 }
 .toggle .open {
   display: block;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
-/**************** skill *******************/
-.skill button {
+/**************** person ****************/
+.person {
+  text-align: left;
+}
+.person .about-me {
+  padding-bottom: 15px;
+}
+.person button {
   border-color: black;
 }
-.skill .icon-text {
+
+.person .icon-text {
   margin-bottom: 5px;
   display: flex;
 }
-.skill .icon {
+.person .icon {
   color: var(--orange);
   font-size: 20px;
 }
-.skill h2 {
+.person h3 {
   margin-left: 5px;
 }
 
@@ -289,14 +297,15 @@ form p {
 /******************* phone screen *********************/
 @media screen and (max-width: 620px) {
   .details {
-    margin-left: 0%;
+    margin: 0;
+    /* margin-left: 0%;
     margin-top: 0%;
     margin-right: 0%;
-    margin-bottom: 0px;
+    margin-bottom: 0px; */
     width: 100%;
     padding: 0px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     text-align: center;
     background: black;
   }
@@ -311,7 +320,7 @@ form p {
     padding-top: 10px;
     padding-right: 10px;
   }
-  .details h3 {
+  .details p {
     padding-top: 10px;
     font-size: 0.8rem;
   }

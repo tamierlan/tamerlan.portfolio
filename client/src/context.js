@@ -8,7 +8,7 @@ class PortfolioProvider extends Component {
     super()
 
     this.state = {
-      skill: 'close',
+      person: 'close',
       github: 'close',
       phone: 'close',
       formemail: 'close',
@@ -24,10 +24,10 @@ class PortfolioProvider extends Component {
   }
 
 //////////// toggle icons  //////////////
-  skillToggle = () => {this.setState({ github: 'close', phone: 'close', formemail: 'close', skill: 'open' })}
-  githubToggle = () => {this.setState({ skill: 'close', formemail: 'close', phone: 'close', github: 'open' })}
-  phoneToggle = () => {this.setState({ skill: 'close', github: 'close', formemail: 'close', phone: 'open' })}
-  formemailToggle = () => {this.setState({ skill: 'close', github: 'close', phone: 'close', formemail: 'open', emailname: '', email: '', emailmessage: ''})}
+  personToggle = () => {this.setState({ github: 'close', phone: 'close', formemail: 'close', person: 'open' })}
+  githubToggle = () => {this.setState({ person: 'close', formemail: 'close', phone: 'close', github: 'open' })}
+  phoneToggle = () => {this.setState({ person: 'close', github: 'close', formemail: 'close', phone: 'open' })}
+  formemailToggle = () => {this.setState({ person: 'close', github: 'close', phone: 'close', formemail: 'open', emailname: '', email: '', emailmessage: ''})}
 
   lockemail = () => {this.setState({ check: true })}
   unlockemail = () => {this.setState({ check: false })}
@@ -38,12 +38,12 @@ class PortfolioProvider extends Component {
     if (this.state.check === true) {
       this.setState({ check: true })
     } else {
-      this.setState({ skill: 'close', github: 'close', phone: 'close', formemail: 'close', inputname: '', inputemail: '', inputmessage: '' })
+      this.setState({ person: 'close', github: 'close', phone: 'close', formemail: 'close', inputname: '', inputemail: '', inputmessage: '' })
     }
   }
 
 
-/////// email handle click ////////
+  ///// email handle click ////////
   emailname = (e) => {this.setState({ emailname: e.target.value, inputname: '' })}
   email = (e) => {this.setState({ email: e.target.value, inputemail: '' })}
   emailmessage = (e) => {this.setState({ emailmessage: e.target.value, inputmessage: '' })}
@@ -73,7 +73,7 @@ class PortfolioProvider extends Component {
       <PortfolioContext.Provider value={{
         state: this.state,
         closeAll: this.closeAll,
-        skillToggle: this.skillToggle,
+        personToggle: this.personToggle,
         githubToggle: this.githubToggle,
         phoneToggle: this.phoneToggle,
         formemailToggle: this.formemailToggle,
