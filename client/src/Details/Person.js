@@ -9,33 +9,31 @@ export default Person => {
   return (
     <div className='person'>
       <div className='about-me'>
-        <h3>Tamerlan<br/>26 years old</h3>
-        <h3>
+        <h3>Tamerlan</h3>
+        <p>26 years old</p>
+        <p>
           Hello! I'm self-taughtsoftware<br/>
-          engineer who enjoys build<br/>
-          things in screen and out
-        </h3>
+          engineer who enjoys building<br/>
+          things on the internet. I develop<br/>
+          exceptional websites that provide<br/>
+          intuitive, pixel-perfect user interfaces<br/>
+          width afficient and modern backends.
+        </p>
       </div>
       <div className='icon-text'>
-        <TiHtml5 className='icon' />
-        <h3>html</h3>
-        <button />
+        <TiHtml5 className='icon' /><h3>html</h3><button />
       </div>
       <div className='icon-text'>
-        <FaCss3Alt className='icon' />
-        <h3>css / bootstrap</h3>
+        <FaCss3Alt className='icon' /><h3>css / bootstrap</h3>
       </div>
       <div className='icon-text'>
-        <IoLogoJavascript className='icon' />
-        <h3>javascript</h3>
+        <IoLogoJavascript className='icon' /><h3>javascript</h3>
       </div>
       <div className='icon-text'>
-        <FaReact className='icon' />
-        <h3>react / context api</h3>
+        <FaReact className='icon' /><h3>react / context api</h3>
       </div>
       <div className='icon-text'>
-        <FaNodeJs className='icon' />
-        <h3>node js</h3>
+        <FaNodeJs className='icon' /><h3>node js</h3>
       </div>
     </div>
   )

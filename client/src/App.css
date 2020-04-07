@@ -48,16 +48,16 @@ body {
 }
 /************* toggle icons ***************/
 .icons .close {
-  transition: all 0.1s linear;
-  margin: 10px;
   margin-top: 5px;
+  margin-left: 10px;
+  transition: all 0.1s linear;
   color: var(--green);
   font-size: 25px;
 }
 .icons .open {
-  transition: all 0.1s linear;
-  margin: 10px;
   margin-top: 5px;
+  margin-left: 10px;
+  transition: all 0.1s linear;
   color: var(--orange);
   font-size: 25px;
 }
@@ -80,10 +80,16 @@ body {
 .person .about-me {
   padding-bottom: 15px;
 }
-.person button {
-  border-color: black;
+.person {
+  color: var(--white);
 }
-
+.person .about-me h3 {
+  color: var(--orange);
+  padding-left: 0px;
+}
+.person p {
+  color: var(--white);
+}
 .person .icon-text {
   margin-bottom: 5px;
   display: flex;
@@ -93,7 +99,10 @@ body {
   font-size: 20px;
 }
 .person h3 {
-  margin-left: 5px;
+  padding-left: 10px;
+}
+.person button {
+  border-color: black;
 }
 
 /**************** github ******************/
@@ -156,18 +165,12 @@ form button:active {
 	position:relative;
 	top:1px;
 }
-form p {
-  /* border: 1px rgba(255, 255, 255, 0.1); */
-}
 .redname, .redemail, .redmessage {
   border: 1px solid red;
 }
 .none {
   display: none;
 }
-
-
-
 
 
 /******************** CENTER ******************************/
@@ -298,10 +301,6 @@ form p {
 @media screen and (max-width: 620px) {
   .details {
     margin: 0;
-    /* margin-left: 0%;
-    margin-top: 0%;
-    margin-right: 0%;
-    margin-bottom: 0px; */
     width: 100%;
     padding: 0px;
     padding-left: 5%;
@@ -311,8 +310,7 @@ form p {
   }
   .details .tommy-eduard {
     display: flex;
-    /* text-align: center; */
-      justify-content: center;
+    justify-content: center;
   }
   .details .tommy-eduard h1 {
     font-size: 1.2rem;
@@ -324,10 +322,6 @@ form p {
     padding-top: 10px;
     font-size: 0.8rem;
   }
-  .details .toggle {
-    /* background: black; */
-    /* padding-bottom: 20px; */
-  }
   .toggle .open {
     text-align: center;
   }
@@ -338,24 +332,5 @@ form p {
   }
   .projects .hoveronweb {
     width: 100%;
-  }
-}
-@media screen and (max-width: 550px) {
-  /* .details {
-    padding-left: 10px;
-  } */
-}
-
-@media screen and (max-width: 415px) {
-
-}
-@media screen and (max-width: 376px) {
-  .projects {
-
-  }
-}
-@media screen and (max-width: 321px) {
-  .projects {
-
   }
 }
