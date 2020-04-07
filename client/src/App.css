@@ -107,7 +107,7 @@ body {
 
 /**************** github ******************/
 .githubpic img {
-  width: 290px;
+  width: 300px;
 }
 
 /***************** phone ******************/
@@ -182,6 +182,9 @@ form button:active {
 }
 .projects .hoveronweb {
   width: 70%;
+}
+.project .phone {
+  display: none;
 }
 .project a {
   text-decoration: none;
@@ -325,6 +328,9 @@ form button:active {
   .toggle .open {
     text-align: center;
   }
+  .githubpic img {
+    width: 500px;
+  }
   .projects {
     margin-left: 5%;
     margin-top: 25%;
@@ -332,5 +338,31 @@ form button:active {
   }
   .projects .hoveronweb {
     width: 100%;
+  }
+  .project .computer {
+    display: none;
+  }
+  .project .phone {
+    display: block;
+  }
+}
+@media screen and (max-width: 550px) {
+  .githubpic img {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .githubpic img {
+    width: 360px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .githubpic img {
+    width: 320px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .githubpic img {
+    width: 285px;
   }
 }
