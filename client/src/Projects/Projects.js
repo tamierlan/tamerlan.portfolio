@@ -10,21 +10,21 @@ export default Projects => {
       title: "Cellphone Store",
       subtitle: "( fullstack react website )",
       link: "https://phone-works.herokuapp.com/",
-      text: "If you’re a student or a professional looking to get ahead, you need a website. It’s your chance to establish an online home base, impress recruiters, and provide something that will set you apart from the stacks of static resumes that everyone else is submitting for job applications."
+      text: "Cellphone store website built with frontend with react js, backend with node js. I used to work as technician for this Cellphone store last 5 years where they fix computers and phones."
     },
     {
       pic: truckshop,
-      title: "Cellphone Store",
-      subtitle: "( fullstack react website )",
+      title: "truck dealer",
+      subtitle: "( reast js, bootstrap css )",
       link: "https://truckshopping.netlify.com/",
-      text: "If you’re a student or a professional looking to get ahead, you need a website. It’s your chance to establish an online home base, impress recruiters, and provide something that will set you apart from the stacks of static resumes that everyone else is submitting for job applications."
+      text: "truck shop website I built this website for develop my skill with react js, context api, bootstrap css"
     },
     {
       pic: phoneshop,
-      title: "Cellphone Store",
-      subtitle: "( fullstack react website )",
+      title: "phone shoping",
+      subtitle: "( react js, bootstrap css )",
       link: "https://mini-phone-store.netlify.com/",
-      text: "If you’re a student or a professional looking to get ahead, you need a website. It’s your chance to establish an online home base, impress recruiters, and provide something that will set you apart from the stacks of static resumes that everyone else is submitting for job applications."
+      text: "phone shoping website I built this website for develop my skill with react js, context api, bootstrap css"
     }
 
   ])

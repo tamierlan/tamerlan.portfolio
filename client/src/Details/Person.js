@@ -12,7 +12,7 @@ export default Person => {
         <h3>Tamerlan</h3>
         <p>26 years old</p>
         <p>
-          Hello! I'm self-taughtsoftware<br/>
+          Hello! I'm self-taught software<br/>
           engineer who enjoys building<br/>
           things on the internet. I develop<br/>
           exceptional websites that provide<br/>
