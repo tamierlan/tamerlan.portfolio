@@ -16,14 +16,14 @@ export default Projects => {
       pic: truckshop,
       title: "Cellphone Store",
       subtitle: "( fullstack react website )",
-      link: "https://phone-works.herokuapp.com/",
+      link: "https://truckshopping.netlify.com/",
       text: "If you’re a student or a professional looking to get ahead, you need a website. It’s your chance to establish an online home base, impress recruiters, and provide something that will set you apart from the stacks of static resumes that everyone else is submitting for job applications."
     },
     {
       pic: phoneshop,
       title: "Cellphone Store",
       subtitle: "( fullstack react website )",
-      link: "https://phone-works.herokuapp.com/",
+      link: "https://mini-phone-store.netlify.com/",
       text: "If you’re a student or a professional looking to get ahead, you need a website. It’s your chance to establish an online home base, impress recruiters, and provide something that will set you apart from the stacks of static resumes that everyone else is submitting for job applications."
     }
 
