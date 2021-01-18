@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import phoneworks from '../images/phoneworks.png'
 import truckshop from '../images/truckshop.png'
 import phoneshop from '../images/phoneshop.png'
+import jobtracker from '../images/jobtracker.png'
 
 export default Projects => {
   const [state] = useState([
@@ -25,6 +26,13 @@ export default Projects => {
       subtitle: "( react js, bootstrap css )",
       link: "https://mini-phone-store.netlify.com/",
       text: "phone shoping website I built this website for develop my skill with react js, context api, bootstrap css"
+    },
+    {
+      pic: jobtracker,
+      title: "job tracker",
+      subtitle: "( react.js, material-ui, firebase, netlify   )",
+      link: "https://students-job-tracking.netlify.app/",
+      text: "job tracking application, user can post new opening jobs with details and descriptions also user can custom search for jobs and apply for those positions"
     }
 
   ])
