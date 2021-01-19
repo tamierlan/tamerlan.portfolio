@@ -13,27 +13,27 @@ export default Projects => {
       link: "https://phone-works.herokuapp.com/",
       text: "Cellphone store website built with frontend with react js, backend with node js. I used to work as technician for this Cellphone store last 5 years where they fix computers and phones."
     },
-    {
-      pic: truckshop,
-      title: "truck dealer",
-      subtitle: "( reast js, bootstrap css )",
-      link: "https://truckshopping.netlify.com/",
-      text: "truck shop website I built this website for develop my skill with react js, context api, bootstrap css"
-    },
-    {
-      pic: phoneshop,
-      title: "phone shoping",
-      subtitle: "( react js, bootstrap css )",
-      link: "https://mini-phone-store.netlify.com/",
-      text: "phone shoping website I built this website for develop my skill with react js, context api, bootstrap css"
-    },
-    {
-      pic: jobtracker,
-      title: "job tracker",
-      subtitle: "( react.js, material-ui, firebase, netlify   )",
-      link: "https://students-job-tracking.netlify.app/",
-      text: "job tracking application, user can post new opening jobs with details and descriptions also user can custom search for jobs and apply for those positions"
-    }
+    // {
+    //   pic: truckshop,
+    //   title: "truck dealer",
+    //   subtitle: "( reast js, bootstrap css )",
+    //   link: "https://truckshopping.netlify.com/",
+    //   text: "truck shop website I built this website for develop my skill with react js, context api, bootstrap css"
+    // },
+    // {
+    //   pic: phoneshop,
+    //   title: "phone shoping",
+    //   subtitle: "( react js, bootstrap css )",
+    //   link: "https://mini-phone-store.netlify.com/",
+    //   text: "phone shoping website I built this website for develop my skill with react js, context api, bootstrap css"
+    // },
+    // {
+    //   pic: jobtracker,
+    //   title: "job tracker",
+    //   subtitle: "( react.js, material-ui, firebase, netlify   )",
+    //   link: "https://students-job-tracking.netlify.app/",
+    //   text: "job tracking application, user can post new opening jobs with details and descriptions also user can custom search for jobs and apply for those positions"
+    // }
 
   ])
 
