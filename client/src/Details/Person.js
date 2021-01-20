@@ -10,7 +10,7 @@ export default Person => {
     <div className='person'>
       <div className='about-me'>
         <h3>Tamerlan</h3>
-        <p>26 years old</p>
+        <p>27 years old</p>
         <p>
           Hello! I'm self-taught software<br/>
           engineer who enjoys building<br/>
@@ -21,7 +21,7 @@ export default Person => {
         </p>
       </div>
       <div className='icon-text'>
-        <TiHtml5 className='icon' /><h3>html</h3><button />
+        <TiHtml5 className='icon' /><h3>html</h3>
       </div>
       <div className='icon-text'>
         <FaCss3Alt className='icon' /><h3>css / bootstrap</h3>
