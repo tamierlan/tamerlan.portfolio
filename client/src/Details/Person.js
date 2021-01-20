@@ -12,12 +12,7 @@ export default Person => {
         <h3>Tamerlan</h3>
         <p>27 years old</p>
         <p>
-          // Hello! I'm self-taught software<br/>
-          // engineer who enjoys building<br/>
-          // things on the internet. I develop<br/>
-          // exceptional websites that provide<br/>
-          // intuitive, pixel-perfect user interfaces<br/>
-          // width afficient and modern backends.
+
         </p>
       </div>
       <div className='icon-text'>
