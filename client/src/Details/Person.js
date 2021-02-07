@@ -12,6 +12,16 @@ export default Person => {
         <h3>Tamerlan</h3>
         <p>27 years old</p>
         <p>
+          I am passionate software engineer<br/>
+          with 3+ years of experience<br/>
+          delivering cutting edge<br/>
+          user-interfaces and general knowledge<br/>
+          of full-stack applications also<br/>
+          multi-faceted background in<br/>
+          web development programming<br/>
+          for both static and dynamically<br/>
+          loaded content.
+
           Hello! I'm self-taught software<br/>
           engineer who enjoys building<br/>
           things on the internet. I develop<br/>
