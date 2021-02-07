@@ -20,7 +20,7 @@ export default Person => {
           multi-faceted background in<br/>
           web development programming<br/>
           for both static and dynamically<br/>
-          loaded content.
+          loaded content.<br/>
 
           Hello! I'm self-taught software<br/>
           engineer who enjoys building<br/>
