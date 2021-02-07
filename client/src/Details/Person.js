@@ -5,6 +5,13 @@ import { IoLogoJavascript } from 'react-icons/io';
 import { FaReact } from 'react-icons/fa';
 import { FaNodeJs } from 'react-icons/fa';
 
+// Hello! I'm self-taught software<br/>
+// engineer who enjoys building<br/>
+// things on the internet. I develop<br/>
+// exceptional websites that provide<br/>
+// intuitive, pixel-perfect user interfaces<br/>
+// width afficient and modern backends.
+
 export default Person => {
   return (
     <div className='person'>
@@ -21,13 +28,6 @@ export default Person => {
           web development programming<br/>
           for both static and dynamically<br/>
           loaded content.<br/>
-
-          Hello! I'm self-taught software<br/>
-          engineer who enjoys building<br/>
-          things on the internet. I develop<br/>
-          exceptional websites that provide<br/>
-          intuitive, pixel-perfect user interfaces<br/>
-          width afficient and modern backends.
         </p>
       </div>
       <div className='icon-text'>
